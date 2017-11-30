@@ -1,4 +1,10 @@
- /* Remove the navbar's default margin-bottom and rounded borders */ 
+/* Ensure all images are the same size.
+img {
+	width: 200px;
+	height: 200px;
+}
+
+/* Remove the navbar's default margin-bottom and rounded borders */ 
     .navbar {
       margin-bottom: 0;
       border-radius: 0;
