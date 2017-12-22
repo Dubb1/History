@@ -14,10 +14,10 @@
     footer {
       background-color: ##7568F2;
       padding: 25px;
-	  color: black;
+	  color: purple;
     }
 	#footer p {
-		color: black;
+		color: purple;
 	}
     
     /* Set height of the grid so .sidenav can be 100% (adjust as needed) */
@@ -26,18 +26,18 @@
     /* Set gray background color and 100% height */
     .sidenav {
       padding-top: 20px;
-      background-color: #000000;
+      background-color: #7568F2;
       height: 100%;
     }
      
     /* On small screens, set height to 'auto' for sidenav and grid */
     @media screen and (max-width: 767px) {
       .sidenav {
-        height: auto;
+        height: manual;
         padding: 15px;
       }
       .row.content {height:auto;} 
     }
-	.black-background {
-		background-color:#000000
+	.purple-background {
+		background-color:#7568F2
 }
